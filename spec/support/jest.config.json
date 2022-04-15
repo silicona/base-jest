@@ -1,0 +1,10 @@
+{
+  "verbose": true,
+  "rootDir": "../../",
+  "roots": ["spec"],
+  "setupFilesAfterEnv": ["@alex_neo/jest-expect-message"],
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "runner": "groups"
+}

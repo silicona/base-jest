@@ -1,0 +1,22 @@
+{
+  "name": "base-jest",
+  "version": "1.0.0",
+  "description": "Ejemplo base con Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./spec/support/jest.config.json",
+    "test:hemingway": "jest --group=hemingway --config ./spec/support/jest.config.json",
+    "test:old": "jest --watchAll"
+  },
+  "author": "Nadie",
+  "license": "ISC",
+  "devDependencies": {
+    "@alex_neo/jest-expect-message": "^1.0.5",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "jest-runner-groups": "^2.2.0",
+    "ts-jest": "^27.0.5",
+    "typeorm": "^0.2.37",
+    "typescript": "^4.3.5"
+  }
+}
